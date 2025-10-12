@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Works | 洋梨ペルマ</title>
+  <meta name="description" content="洋梨ペルマの作品一覧。pixivの試し読み・BOOTHの有料版リンク。">
+  <link rel="icon" href="assets/images/perma-logo.png" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/images/perma-logo.png" alt="perma logo" />
+        <span>yo-nashi perma</span>
+      </a>
+      <nav class="nav">
+        <a href="index.html#about">About</a>
+        <a class="active" href="works.html">Works</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <h1>Works</h1>
+
+      <!-- 作品カード：必要に応じて増やしていく -->
+      <div class="grid">
+        <article class="card">
+          <div class="card-head">
+            <h3>（新作）タイトル未定</h3>
+            <span class="tags">#執着 #総受け #スパダリ</span>
+          </div>
+          <p class="card-desc">
+            長編の一部をpixivで公開、完全版はBOOTHで販売予定。静かに蠢く執着がやさしさへ反転するまで。
+          </p>
+          <div class="card-actions">
+            <a class="btn sm" href="#" target="_blank" rel="noreferrer">pixiv</a>
+            <a class="btn ghost sm" href="#" target="_blank" rel="noreferrer">BOOTH</a>
+          </div>
+        </article>
+
+        <!-- 以降、同じカードを複製して作品を追加 -->
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>&copy; <span id="y"></span> yo-nashi perma</small>
+    </div>
+  </footer>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
